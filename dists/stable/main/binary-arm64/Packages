@@ -1,0 +1,36 @@
+Package: readers-calendar
+Version: 1.7.0
+Architecture: all
+Maintainer: funkypitt <pierregallaz@gmail.com>
+Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-dateutil
+Filename: pool/main/r/readers-calendar/readers-calendar_1.7.0_all.deb
+Size: 27042
+MD5sum: f16c3f10eb5f3fa56f81e581a249b88d
+SHA1: aeb42c4806390a63e1ecc299e328ec69c8c1d763
+SHA256: 3c6df4ba48b433355ca3ac494dc735735ffcc068885304aec90c079ae750f271
+Section: utils
+Priority: optional
+Homepage: https://github.com/funkypitt/readers-calendar-desktop
+Description: Black-and-white, text-only CalDAV calendar
+ A single-window desktop calendar for CalDAV servers (Infomaniak, Nextcloud,
+ Radicale...). Month grid on the left, agenda or week grid on the right, an
+ event page in two columns. White on black or black on white.
+
+Package: readers-tasks
+Version: 1.4.0
+Architecture: all
+Maintainer: funkypitt <pierregallaz@gmail.com>
+Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
+Filename: pool/main/r/readers-tasks/readers-tasks_1.4.0_all.deb
+Size: 13382
+MD5sum: 089a122913a3ea3de1d0746580541f35
+SHA1: 782425ce8e61038df209540d4d95b2f9f13f61c1
+SHA256: c9920ceff3d51cc7895ab9a9ff190840fdaae6396beb04e6874182913ba477d1
+Section: utils
+Priority: optional
+Homepage: https://github.com/funkypitt/readers-tasks
+Description: Black-and-white, text-only CalDAV task list
+ A single-window desktop client for CalDAV task lists (Tasks.org Cloud,
+ Nextcloud, Radicale...). Lists on the left, open tasks on the right, a box
+ to tick and a line to add. White on black or black on white.
+

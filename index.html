@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>funkypitt apt repository</title>
+<style>
+  body { max-width: 44rem; margin: 3rem auto; padding: 0 1.2rem; font: 16px/1.5 Georgia, "Times New Roman", serif; color: #000; background: #fff; }
+  h1 { font-weight: normal; font-size: 1.8rem; margin-bottom: .2rem; }
+  h2 { font-weight: normal; font-size: 1.25rem; margin-top: 2rem; border-top: 1px solid #000; padding-top: .8rem; }
+  pre { background: #f2f2f2; padding: .8rem 1rem; overflow-x: auto; font-size: .9rem; }
+  a { color: #000; }
+  ul { padding-left: 1.2rem; }
+  .dim { color: #666; }
+</style>
+</head>
+<body>
+<h1>funkypitt apt repository</h1>
+<p class="dim">Debian packages of the Reader's desktop apps (<a href="https://gallaz.ch/eink">gallaz.ch/eink</a>). Debian, Ubuntu, Pop!_OS, Mint and derivatives. Rebuilt daily from the latest GitHub releases.</p>
+
+<h2>Set up once</h2>
+<pre>sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://funkypitt.github.io/apt-repo/funkypitt.gpg | sudo tee /etc/apt/keyrings/funkypitt.gpg &gt;/dev/null
+echo "deb [signed-by=/etc/apt/keyrings/funkypitt.gpg] https://funkypitt.github.io/apt-repo stable main" | sudo tee /etc/apt/sources.list.d/funkypitt.list
+sudo apt update</pre>
+
+<h2>Install</h2>
+<pre>sudo apt install readers-calendar readers-tasks</pre>
+<p>Updates then come with the rest of the system (<code>sudo apt upgrade</code>).</p>
+
+<h2>Packages</h2>
+<ul>
+  <li><b>readers-calendar</b> — a black-and-white CalDAV calendar (<a href="https://github.com/funkypitt/readers-calendar-desktop">source</a>)</li>
+  <li><b>readers-tasks</b> — a black-and-white CalDAV task list (<a href="https://github.com/funkypitt/readers-tasks">source</a>)</li>
+</ul>
+
+<h2>Key</h2>
+<p>Signed with the key <a href="funkypitt.asc">funkypitt.asc</a> (fingerprint <code>7702 CD77 3AAD BBC9 590C B44B FF21 2F5B 6C16 FE6C</code>).</p>
+<p class="dim">Arch Linux: each app's repository has a PKGBUILD.</p>
+</body>
+</html>
