@@ -31,6 +31,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A pool dists funkypitt.gpg funkypitt.asc .nojekyll
-          git diff --cached --quiet && echo "nothing new" && exit 0
+          # The Release file changes every run (its date); only commit when a package did.
+          git diff --cached --quiet -- pool dists/stable/main funkypitt.gpg && echo "nothing new" && exit 0
           git commit -m "update: $(grep ^Package: dists/stable/main/binary-amd64/Packages | wc -l) packages, $(date -u +%F)"
           git push
