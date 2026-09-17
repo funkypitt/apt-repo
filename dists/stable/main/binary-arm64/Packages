@@ -16,6 +16,24 @@ Description: Black-and-white, text-only CalDAV calendar
  Radicale...). Month grid on the left, agenda or week grid on the right, an
  event page in two columns. White on black or black on white.
 
+Package: readers-notes
+Version: 1.0.0
+Architecture: all
+Maintainer: funkypitt <pierregallaz@gmail.com>
+Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
+Filename: pool/main/r/readers-notes/readers-notes_1.0.0_all.deb
+Size: 16168
+MD5sum: 0ae18d60aef499dd8e65d1a5763d042f
+SHA1: 180e5bc35e255c82a6c799e940e8dcb7c709d4ca
+SHA256: 8e5a13aa3c2b3877debfb1f87695a1f1d05a68c60475b0da402914632432e629
+Section: utils
+Priority: optional
+Homepage: https://github.com/funkypitt/readers-notes-desktop
+Description: Black-and-white, plain-text notes synced over WebDAV
+ A single-window desktop notebook: the notes on the left, the page on the
+ right, one .txt file per note in a WebDAV folder (kDrive, Nextcloud...), in
+ step with the Reader's Notes Android app. White on black or black on white.
+
 Package: readers-tasks
 Version: 1.4.0
 Architecture: all
