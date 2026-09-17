@@ -1,3 +1,4 @@
 # GitHub repositories whose latest release carries .deb files. One per line.
 readers-tasks
 readers-calendar-desktop
+readers-notes-desktop
