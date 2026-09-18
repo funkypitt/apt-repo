@@ -1,14 +1,14 @@
 Package: readers-calendar
-Version: 1.10.0
+Version: 1.11.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-dateutil
 Recommends: fonts-roboto
-Filename: pool/main/r/readers-calendar/readers-calendar_1.10.0_all.deb
-Size: 44360
-MD5sum: c84b44536803dc70ab99c15e9b8d40c7
-SHA1: 4ba6cca3c5d5f72f1ae2e5918efe60289e225f8c
-SHA256: dacfad78257231b17b6d65ca4ca98306f8cd64456b738a5fda9aea2b34aa1121
+Filename: pool/main/r/readers-calendar/readers-calendar_1.11.0_all.deb
+Size: 44870
+MD5sum: 00ad7071e7de6f00125b75c4246af07a
+SHA1: 51adf370a0aa2c0c783730ca7c43572f63cb6e68
+SHA256: c9c9d5cad7916bbb0e7c074768b668b5aba9c0a7ed731d95cc46c15e90c37f79
 Section: utils
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-calendar-desktop
@@ -18,15 +18,15 @@ Description: Black-and-white, text-only CalDAV calendar
  event page in two columns. White on black or black on white.
 
 Package: readers-notes
-Version: 1.1.1
+Version: 1.2.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
-Filename: pool/main/r/readers-notes/readers-notes_1.1.1_all.deb
-Size: 18426
-MD5sum: c25afb8478902016b50ce9c9ca64397a
-SHA1: 630f0e3d563f6ecf348ffba68c8b26570f9e84f4
-SHA256: 149001c4d88b81f8a13d5a1717f17f74e654aa8da68be2d7f6a4bc9850773702
+Filename: pool/main/r/readers-notes/readers-notes_1.2.0_all.deb
+Size: 18818
+MD5sum: b7db52fb444a15bd23519d3bb137e43a
+SHA1: fae228c7e5c58ee9d06256ee93298d1df54c0be0
+SHA256: 6042fe93f9b24fdbd1f6208a89115e943b37482240aca4c419a37d4a49594d9e
 Section: utils
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-notes-desktop
@@ -36,15 +36,15 @@ Description: Black-and-white, plain-text notes synced over WebDAV
  step with the Reader's Notes Android app. White on black or black on white.
 
 Package: readers-tasks
-Version: 1.5.0
+Version: 1.6.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
-Filename: pool/main/r/readers-tasks/readers-tasks_1.5.0_all.deb
-Size: 15316
-MD5sum: a041fd8b3194b3cae4edd4334fa6b0eb
-SHA1: c3b546854896f9df5b7e56a146d37189d095d971
-SHA256: e42bd3595b9d5b30be1a678b4690ca0585f8d1fd8195e1ac46324659e2825baa
+Filename: pool/main/r/readers-tasks/readers-tasks_1.6.0_all.deb
+Size: 15960
+MD5sum: bb85b6d4ddb753944ac53b3c75401bca
+SHA1: 6baddca16de6fddd1af8d10a6586f3199e2d8b34
+SHA256: 095bea5921d279a7e39fd6226d3b656b8abb5c23cf59c79226afe22197670c01
 Section: utils
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-tasks
