@@ -1,14 +1,14 @@
 Package: readers-calendar
-Version: 1.9.0
+Version: 1.10.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-dateutil
 Recommends: fonts-roboto
-Filename: pool/main/r/readers-calendar/readers-calendar_1.9.0_all.deb
-Size: 42932
-MD5sum: 41a4c53de04e98efd5c59874d0d4d5b2
-SHA1: a863b0b5ff440dd91cbeefdb25c100d7af4fe6f1
-SHA256: 7a9224478427772b08522cbd823d55280af9a91ffd7d129b0ee112a39e9ac475
+Filename: pool/main/r/readers-calendar/readers-calendar_1.10.0_all.deb
+Size: 44360
+MD5sum: c84b44536803dc70ab99c15e9b8d40c7
+SHA1: 4ba6cca3c5d5f72f1ae2e5918efe60289e225f8c
+SHA256: dacfad78257231b17b6d65ca4ca98306f8cd64456b738a5fda9aea2b34aa1121
 Section: utils
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-calendar-desktop
