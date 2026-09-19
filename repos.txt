@@ -2,3 +2,4 @@
 readers-tasks
 readers-calendar-desktop
 readers-notes-desktop
+readers-podcasts-desktop
