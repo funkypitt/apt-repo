@@ -5,10 +5,10 @@ Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-dateutil
 Recommends: fonts-roboto
 Filename: pool/main/r/readers-calendar/readers-calendar_1.13.0_all.deb
-Size: 49404
-MD5sum: 353adc2478ce3ce3786307258c8f6d24
-SHA1: 74f033d83c1ec4dfb36688f37e8ae9edd124c482
-SHA256: 53023b6424dd2a875ac2c39775b1112df80d1f4a4e4a0c9c67aff34d515e8ecf
+Size: 49422
+MD5sum: b20a6253fd09e7e0f44c8edaeeaac76e
+SHA1: 834274191bea3c1fcde08d6b0c9bf3893f2f2f00
+SHA256: 77fb301f48b5f4a3aa946d36229a94bdd09e9dd890549e4d7751c05b7b3b0dcd
 Section: utils
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-calendar-desktop
@@ -36,16 +36,16 @@ Description: Black-and-white, plain-text notes synced over WebDAV
  step with the Reader's Notes Android app. White on black or black on white.
 
 Package: readers-podcasts
-Version: 1.0.0
+Version: 1.1.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-pyqt5.qtmultimedia, libqt5multimedia5-plugins, python3-requests, gstreamer1.0-plugins-good
 Recommends: gstreamer1.0-libav, yt-dlp
-Filename: pool/main/r/readers-podcasts/readers-podcasts_1.0.0_all.deb
-Size: 26180
-MD5sum: bf0b4ca8d3c8558cec0092baa1826234
-SHA1: 5bc5ccef2f014f83918792d659cab7d4fd21a965
-SHA256: d8e87b62d991f8d3ecaf5b0d1f5b32d2ac518a0aae15f7f5d453c934f16247a3
+Filename: pool/main/r/readers-podcasts/readers-podcasts_1.1.0_all.deb
+Size: 30012
+MD5sum: 1e5f7617ff4212377253bf2582ce8873
+SHA1: ed633a07328bcf93ec946d7eeeb4ee427f8122ff
+SHA256: 6103ec11da56f371cc94a4408ad89d1554b00556aa3733f0b83766d9516460c4
 Section: sound
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-podcasts-desktop
