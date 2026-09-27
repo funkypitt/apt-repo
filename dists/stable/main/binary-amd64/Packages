@@ -58,17 +58,17 @@ Description: Black-and-white, text-only podcast player
  when it is installed.
 
 Package: readers-scanner
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-pil, python3-numpy, python3-zeroconf, tesseract-ocr, poppler-utils
 Recommends: ipp-usb, tesseract-ocr-osd, sane-utils
 Suggests: naps2
-Filename: pool/main/r/readers-scanner/readers-scanner_1.0.0_all.deb
-Size: 79100
-MD5sum: 8c5434852fcb878aee623ee3c8310d20
-SHA1: 95ac5c0ec94c500b8895ed7627818ba3d59bd520
-SHA256: d203947ae8e29df1fcb128d9c47b73d6dc5df5a1adae62ac1c7546decb36c657
+Filename: pool/main/r/readers-scanner/readers-scanner_1.0.1_all.deb
+Size: 78616
+MD5sum: f676c9aa817876da1976e308794f0cce
+SHA1: a3dda194fc0afa69d31f187e905b9e745dcd67d6
+SHA256: 951bb69f7d04bd3d9d233a2758a046799ee29e8b3134ee051be19adc490feafa
 Section: graphics
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-scanner-desktop
