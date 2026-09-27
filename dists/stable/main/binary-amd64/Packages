@@ -23,10 +23,10 @@ Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
 Filename: pool/main/r/readers-notes/readers-notes_1.3.0_all.deb
-Size: 22972
-MD5sum: 3581c979b008af8aab2f517d9d4661fb
-SHA1: f5f6dc54f57210e5cadaee5b3e83f8aa75754439
-SHA256: c131837d964cb2df3fd8c17a8f1358a9d7223f8692d4bcbe016d107b4b6aec80
+Size: 22970
+MD5sum: 8014ccd656acc83d0028cfded5657e3c
+SHA1: 1bfa80cb3b8360a8d7a314b7079907f05ed6970b
+SHA256: 1ff2b034fa0c37afc01288ecbfa71e614705f2bf124cc0cff79e4e7cfa342485
 Section: utils
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-notes-desktop
