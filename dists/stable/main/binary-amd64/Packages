@@ -1,14 +1,14 @@
 Package: readers-calendar
-Version: 1.14.1
+Version: 1.14.2
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-dateutil
 Recommends: fonts-roboto
-Filename: pool/main/r/readers-calendar/readers-calendar_1.14.1_all.deb
-Size: 53236
-MD5sum: fe97b4161941384c7e6e94b2f1a6cad2
-SHA1: 327ba878af7b09759aa532ed79e66124e6a1dfa3
-SHA256: e0a6de360b735e2819801a8c966e070bcc8478233f56624bc978dacb0ccf903a
+Filename: pool/main/r/readers-calendar/readers-calendar_1.14.2_all.deb
+Size: 54056
+MD5sum: 29a13192ee4fd528f5b7898149e48bc1
+SHA1: 9bba89a6d19fef8b7dcf22fec75e1f753463d611
+SHA256: 1ef49cd7f7b014ef0393e61421ed9316c54bbcf20b4294803c98178638fc3fc1
 Section: utils
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-calendar-desktop
@@ -18,15 +18,15 @@ Description: Black-and-white, text-only CalDAV calendar
  event page in two columns. White on black or black on white.
 
 Package: readers-notes
-Version: 1.3.1
+Version: 1.3.2
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
-Filename: pool/main/r/readers-notes/readers-notes_1.3.1_all.deb
-Size: 23496
-MD5sum: cc6ecc800c2a54862b6d35585dbf4f64
-SHA1: a01293c27c4dbaed6c212f3c05563f9142fdef78
-SHA256: b17e6d80c38368df67f79f554da270154ac02872ced118f47745c268b371034a
+Filename: pool/main/r/readers-notes/readers-notes_1.3.2_all.deb
+Size: 24274
+MD5sum: 300190376b6e592cc6f0316ddb393c46
+SHA1: 2fe164b7c01e8ccff025777df01a222c643c222b
+SHA256: a44b5670284183ae208ba760a364a2faf2e4776fa4a3ee111bc3849de91e6d49
 Section: utils
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-notes-desktop
@@ -58,17 +58,17 @@ Description: Black-and-white, text-only podcast player
  when it is installed.
 
 Package: readers-scanner
-Version: 1.0.1
+Version: 1.0.2
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-pil, python3-numpy, python3-zeroconf, tesseract-ocr, poppler-utils
 Recommends: ipp-usb, tesseract-ocr-osd, sane-utils
 Suggests: naps2
-Filename: pool/main/r/readers-scanner/readers-scanner_1.0.1_all.deb
-Size: 78616
-MD5sum: f676c9aa817876da1976e308794f0cce
-SHA1: a3dda194fc0afa69d31f187e905b9e745dcd67d6
-SHA256: 951bb69f7d04bd3d9d233a2758a046799ee29e8b3134ee051be19adc490feafa
+Filename: pool/main/r/readers-scanner/readers-scanner_1.0.2_all.deb
+Size: 79336
+MD5sum: 18a587c980122657fde3c288e98e3cf0
+SHA1: cd8c729ca686a5b1201e7bed871950c535810bf8
+SHA256: 44d280cdb340ea1c5749dba2c09c1b66442ac4188b5190e0a967f7b1bc505374
 Section: graphics
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-scanner-desktop
@@ -85,15 +85,15 @@ Description: One-click scanning to searchable PDFs, filed with the phone's
  Nextcloud...). Black and white, no account with the app.
 
 Package: readers-tasks
-Version: 1.6.1
+Version: 1.6.2
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
-Filename: pool/main/r/readers-tasks/readers-tasks_1.6.1_all.deb
-Size: 17000
-MD5sum: f9a36ed094bf9473314c84385848ca00
-SHA1: 1fa3f21ea1c28eed1e203de93e2dba0990a2fa82
-SHA256: 859b308dc91629731903f885559b677ab726d7fed3dc89ac4d3ca8a96effbf43
+Filename: pool/main/r/readers-tasks/readers-tasks_1.6.2_all.deb
+Size: 17846
+MD5sum: 2588284273399767a673f29976c9e7db
+SHA1: ccea34589e9b71b56f72f43a3bc9216ecae514eb
+SHA256: 619f2e69f1bb66d7ce74f8af749f317ec46ba5e756224d1c6fd513bd7e837615
 Section: utils
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-tasks
