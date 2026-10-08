@@ -38,15 +38,15 @@ Description: Black-and-white, text-only CalDAV calendar
  event page in two columns. White on black or black on white.
 
 Package: readers-notes
-Version: 1.3.4
+Version: 1.3.5
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
-Filename: pool/main/r/readers-notes/readers-notes_1.3.4_all.deb
-Size: 24920
-MD5sum: 8e10147c846e80409cc3c2319872e254
-SHA1: e07efe3b016832c893f2f0d6c47dd6d3bd1b2530
-SHA256: 4bd6365a811e9a8fb5978ddd90add79c636eeeaa5774ad7a5215cab35570695a
+Filename: pool/main/r/readers-notes/readers-notes_1.3.5_all.deb
+Size: 309002
+MD5sum: f842e838e5002bf78e31438eb0c3a529
+SHA1: a96ad2f073bc9ed5d4302cec07bcd59533ac191f
+SHA256: e5195e518fa991768c72034af7cc84eb158c23eb3b99c46f4ad108505540ee93
 Section: utils
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-notes-desktop
@@ -56,16 +56,16 @@ Description: Black-and-white, plain-text notes synced over WebDAV
  step with the Reader's Notes Android app. White on black or black on white.
 
 Package: readers-podcasts
-Version: 1.2.0
+Version: 1.2.1
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-pyqt5.qtmultimedia, libqt5multimedia5-plugins, python3-requests, gstreamer1.0-plugins-good
 Recommends: gstreamer1.0-libav, yt-dlp
-Filename: pool/main/r/readers-podcasts/readers-podcasts_1.2.0_all.deb
-Size: 33394
-MD5sum: 4a45a7ef8bc8f31f423a4700dee6ed80
-SHA1: ee531c639bd37d8a6b346c737d20c88f48df7bef
-SHA256: 50341ceec28b632fd803d3a6dc6866a272dfe6697899fc5ab304a291d9741230
+Filename: pool/main/r/readers-podcasts/readers-podcasts_1.2.1_all.deb
+Size: 317428
+MD5sum: b5a842892e20eda644b0cd98bfd5a87e
+SHA1: 3c5931311c8e9c6d452f49efe14276a9b2b2c8b7
+SHA256: 0e4da004469eaa81884aa435a4160253fd3fa294db9764d12adb8bd54b65a7e7
 Section: sound
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-podcasts-desktop
@@ -105,15 +105,15 @@ Description: One-click scanning to searchable PDFs, filed with the phone's
  Nextcloud...). Black and white, no account with the app.
 
 Package: readers-tasks
-Version: 1.6.3
+Version: 1.6.4
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
-Filename: pool/main/r/readers-tasks/readers-tasks_1.6.3_all.deb
-Size: 18028
-MD5sum: e2ab4832d8cc5d054a6b5c343989ce2e
-SHA1: d6f3fa1fc28b4d7ddb28e35a22841849369d9162
-SHA256: 7e01ee128c1aa86c03135ae45dba65bd16720c5bc7695ac22fb2b237ca777ea6
+Filename: pool/main/r/readers-tasks/readers-tasks_1.6.4_all.deb
+Size: 302198
+MD5sum: 5de8e936b6a11a80b6e8446cb4f7fe22
+SHA1: a2a609c4796bde9ea0ac3acb0c9e3d7faa99a44e
+SHA256: d2840576e8b470bc9ec5891ecfbc6f7cbbd4c4033be0dd757a0784eeb62543f2
 Section: utils
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-tasks
