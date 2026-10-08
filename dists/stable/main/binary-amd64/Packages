@@ -19,16 +19,16 @@ Description: Two-column Unity-style dock for the COSMIC desktop
  in ~/.config/quai/config.toml, switches COSMIC's own dock off.
 
 Package: readers-calendar
-Version: 1.14.4
+Version: 1.14.5
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-dateutil
 Recommends: fonts-roboto
-Filename: pool/main/r/readers-calendar/readers-calendar_1.14.4_all.deb
-Size: 54522
-MD5sum: 540719ee63b6173b0d49c6ac46392640
-SHA1: ce09248288b7b34ae24f19845d3c62e317da14db
-SHA256: 03db13d0bd6f7402778ef32f56968a7185bd269b4fd92ee4babb43278db21ff0
+Filename: pool/main/r/readers-calendar/readers-calendar_1.14.5_all.deb
+Size: 338698
+MD5sum: ad774c094f1c07b2dd29882e6b1953e4
+SHA1: 8e24895bd0e8b871bc99ebf68f6db713521f6719
+SHA256: d2907f6f983254784fbcfe5b50e1178a2abf263d833308839e58010cfe9ae00f
 Section: utils
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-calendar-desktop
