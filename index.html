@@ -25,11 +25,13 @@ echo "deb [signed-by=/etc/apt/keyrings/funkypitt.gpg] https://funkypitt.github.i
 sudo apt update</pre>
 
 <h2>Install</h2>
-<pre>sudo apt install readers-calendar readers-notes readers-tasks</pre>
+<pre>sudo apt install readers-calendar readers-notes readers-tasks
+sudo apt install quai            # the dock, on COSMIC (Pop!_OS)</pre>
 <p>Updates then come with the rest of the system (<code>sudo apt upgrade</code>).</p>
 
 <h2>Packages</h2>
 <ul>
+  <li><b>quai</b> — a two-column, Unity-style dock for the COSMIC desktop; starts with every session (<a href="https://github.com/funkypitt/quai">source</a>)</li>
   <li><b>readers-calendar</b> — a black-and-white CalDAV calendar (<a href="https://github.com/funkypitt/readers-calendar-desktop">source</a>)</li>
   <li><b>readers-notes</b> — black-and-white plain-text notes, synced with the phone over WebDAV (<a href="https://github.com/funkypitt/readers-notes-desktop">source</a>)</li>
   <li><b>readers-scanner</b> — one-click scanning to searchable PDFs, filed in the folders shared with the phone; older scanners need <a href="https://www.naps2.com/download">NAPS2</a> (<a href="https://github.com/funkypitt/readers-scanner-desktop">source</a>)</li>
