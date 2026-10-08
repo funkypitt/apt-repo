@@ -1,3 +1,23 @@
+Package: quai
+Version: 0.2.0
+Architecture: amd64
+Maintainer: funkypitt <pierregallaz@gmail.com>
+Depends: libc6 (>= 2.34)
+Recommends: cosmic-session
+Filename: pool/main/q/quai/quai_0.2.0_amd64.deb
+Size: 2895064
+MD5sum: f3f485bc55e9a2ac875e989c89152c5e
+SHA1: 3ca44103d18edafb5877c3c66d505a75fbfe31e0
+SHA256: 505b4e8fe6edfb7fd2ffeb2bbcd7942fbfd03e27dc47dd9b8d2d863e9120dc47
+Section: x11
+Priority: optional
+Homepage: https://github.com/funkypitt/quai
+Description: Two-column Unity-style dock for the COSMIC desktop
+ Pinned applications in the left column, open windows in the right one,
+ every tile lit with the colour of its icon, as in Ubuntu's Unity. Mouse
+ and touch. Starts with every COSMIC session and, unless told otherwise
+ in ~/.config/quai/config.toml, switches COSMIC's own dock off.
+
 Package: readers-calendar
 Version: 1.14.4
 Architecture: all
