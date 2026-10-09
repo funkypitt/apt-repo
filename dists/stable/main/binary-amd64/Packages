@@ -18,6 +18,27 @@ Description: Two-column Unity-style dock for the COSMIC desktop
  and touch. Starts with every COSMIC session and, unless told otherwise
  in ~/.config/quai/config.toml, switches COSMIC's own dock off.
 
+Package: readers-books
+Version: 1.0.0
+Architecture: all
+Maintainer: funkypitt <pierregallaz@gmail.com>
+Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
+Filename: pool/main/r/readers-books/readers-books_1.0.0_all.deb
+Size: 492732
+MD5sum: bb1bd306581c7bc816d8b05208bba314
+SHA1: 846f982032d0e73796bf4dbf5a6e506fa6519594
+SHA256: 1ac3336c0b53cacfdfc351519240a5d90c5cf31f17e7dc0f5c00566d1474e8ba
+Section: text
+Priority: optional
+Homepage: https://github.com/funkypitt/readers-books-desktop
+Description: Black-and-white e-book reader: a shelf, and pages cut at whole lines
+ A shelf as a plain list and books as pages of text, turned by a click or a
+ key. EPUB, MOBI, FB2 and plain text; the place in each book is kept.
+ Pictures in EPUBs are shown in the page, magazine issues open on their
+ contents. An optional library lists the e-books kept on a drive (a public
+ kDrive share link or any WebDAV address) and fetches a book when it is
+ asked for. The desktop twin of the Reader's Books Android app.
+
 Package: readers-calendar
 Version: 1.14.5
 Architecture: all
