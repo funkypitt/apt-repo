@@ -40,16 +40,16 @@ Description: Black-and-white e-book reader: a shelf, and pages cut at whole line
  asked for. The desktop twin of the Reader's Books Android app.
 
 Package: readers-calendar
-Version: 1.14.5
+Version: 1.14.6
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-dateutil
 Recommends: fonts-roboto
-Filename: pool/main/r/readers-calendar/readers-calendar_1.14.5_all.deb
-Size: 338698
-MD5sum: ad774c094f1c07b2dd29882e6b1953e4
-SHA1: 8e24895bd0e8b871bc99ebf68f6db713521f6719
-SHA256: d2907f6f983254784fbcfe5b50e1178a2abf263d833308839e58010cfe9ae00f
+Filename: pool/main/r/readers-calendar/readers-calendar_1.14.6_all.deb
+Size: 338790
+MD5sum: 0b5a03b99e43c5eacf81e5ad6d7f2ee5
+SHA1: d15cba9dcf4af75f3a1e9bdeeba551a7295a780f
+SHA256: f170a7a63274d7323135cba6803cbf4cd2cf650e8704de242691b8fff53c6076
 Section: utils
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-calendar-desktop
@@ -99,17 +99,17 @@ Description: Black-and-white, text-only podcast player
  when it is installed.
 
 Package: readers-scanner
-Version: 1.0.5
+Version: 1.0.6
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-pil, python3-numpy, python3-zeroconf, tesseract-ocr, poppler-utils
 Recommends: ipp-usb, tesseract-ocr-osd, sane-utils
 Suggests: naps2
-Filename: pool/main/r/readers-scanner/readers-scanner_1.0.5_all.deb
-Size: 366120
-MD5sum: 2d522a606dcfc6b2cab0446fd3eec401
-SHA1: 51eb4e0d9ef281c5596cdf787bdc1359b1b90e4e
-SHA256: d956e396afc925c211b47fe27aeff8cf6de29cffa3fba181d2f9e5d80edea707
+Filename: pool/main/r/readers-scanner/readers-scanner_1.0.6_all.deb
+Size: 366194
+MD5sum: 6b1068629990a6970b8355317027e3ab
+SHA1: 8f8a46ba39038ac1d6224b95eef0d7f77d4ec4c6
+SHA256: db5e1bd296b78fc6d308de670a0b08e5c67f4fa95bbd8385fa1936f916ed3c7b
 Section: graphics
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-scanner-desktop
@@ -126,15 +126,15 @@ Description: One-click scanning to searchable PDFs, filed with the phone's
  Nextcloud...). Black and white, no account with the app.
 
 Package: readers-tasks
-Version: 1.6.4
+Version: 1.6.5
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
-Filename: pool/main/r/readers-tasks/readers-tasks_1.6.4_all.deb
-Size: 302198
-MD5sum: 5de8e936b6a11a80b6e8446cb4f7fe22
-SHA1: a2a609c4796bde9ea0ac3acb0c9e3d7faa99a44e
-SHA256: d2840576e8b470bc9ec5891ecfbc6f7cbbd4c4033be0dd757a0784eeb62543f2
+Filename: pool/main/r/readers-tasks/readers-tasks_1.6.5_all.deb
+Size: 302302
+MD5sum: f4740691058e2f78b38a879e5adbb99e
+SHA1: df92f8b15296865152d9349e655af9ed6a048f0a
+SHA256: 428020ec55b454fb2f3b203f867f262c806346f9214cd8c78b658910320202f5
 Section: utils
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-tasks
