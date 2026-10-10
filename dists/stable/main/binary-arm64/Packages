@@ -57,16 +57,16 @@ Description: Black-and-white, plain-text notes synced over WebDAV
  step with the Reader's Notes Android app. White on black or black on white.
 
 Package: readers-podcasts
-Version: 1.3.0
+Version: 1.4.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-pyqt5.qtmultimedia, libqt5multimedia5-plugins, python3-requests, gstreamer1.0-plugins-good
-Recommends: gstreamer1.0-libav, yt-dlp
-Filename: pool/main/r/readers-podcasts/readers-podcasts_1.3.0_all.deb
-Size: 319632
-MD5sum: fb62f062dbd970e56149f45c07ec6460
-SHA1: ad09d7914b160e93a24b5286e16b45cac5b3a103
-SHA256: 13c871bd15b5e555b5ffa4266a0e5ad4a257de21fe494992c76e228b6638100e
+Recommends: gstreamer1.0-libav, yt-dlp, ffmpeg
+Filename: pool/main/r/readers-podcasts/readers-podcasts_1.4.0_all.deb
+Size: 333320
+MD5sum: baa433615900980fa0d01c3b5f4be2ea
+SHA1: b60d88f51ff311bffed95e60c76c8263ce3433c9
+SHA256: 7ef32c500acf46cf0ad21a7551c4bcb74d4bb538326aa188b1ad629b54c20903
 Section: sound
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-podcasts-desktop
@@ -77,6 +77,9 @@ Description: Black-and-white, text-only podcast player
  each episode was left, in step with the Reader's Podcasts Android app.
  YouTube channels are followed as feeds; their audio is fetched by yt-dlp
  when it is installed.
+ What is said in an episode can be written down by a Whisper program
+ (faster-whisper, whisper.cpp or whisper) and translated by Ollama, when
+ they are installed; the text is read against the sound.
 
 Package: readers-scanner
 Version: 1.0.6
