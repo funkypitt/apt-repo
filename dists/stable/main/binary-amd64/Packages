@@ -129,15 +129,15 @@ Description: One-click scanning to searchable PDFs, filed with the phone's
  Nextcloud...). Black and white, no account with the app.
 
 Package: readers-tasks
-Version: 1.6.5
+Version: 1.6.6
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
-Filename: pool/main/r/readers-tasks/readers-tasks_1.6.5_all.deb
-Size: 302302
-MD5sum: f4740691058e2f78b38a879e5adbb99e
-SHA1: df92f8b15296865152d9349e655af9ed6a048f0a
-SHA256: 428020ec55b454fb2f3b203f867f262c806346f9214cd8c78b658910320202f5
+Filename: pool/main/r/readers-tasks/readers-tasks_1.6.6_all.deb
+Size: 302432
+MD5sum: 06972c8b09460de8911960b0117a303d
+SHA1: 460f495bf7245d3694ecc811e9075d14f01be7d2
+SHA256: d7bf5f338162ad10db068ac7974ae96fb53e4a0579358d30b9c7bd09efa80c0b
 Section: utils
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-tasks
