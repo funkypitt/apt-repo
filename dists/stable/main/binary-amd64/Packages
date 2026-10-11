@@ -77,16 +77,16 @@ Description: Black-and-white, plain-text notes synced over WebDAV
  step with the Reader's Notes Android app. White on black or black on white.
 
 Package: readers-podcasts
-Version: 1.5.1
+Version: 1.6.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-pyqt5.qtmultimedia, libqt5multimedia5-plugins, python3-requests, gstreamer1.0-plugins-good
 Recommends: gstreamer1.0-libav, yt-dlp, ffmpeg
-Filename: pool/main/r/readers-podcasts/readers-podcasts_1.5.1_all.deb
-Size: 336380
-MD5sum: 8ae7c53c6ceb964629db64bf1f8ea425
-SHA1: c4441c8fdc37b1c153dbb64886c9b1c63516890f
-SHA256: 292e203af4c195f001249c1f8d85f6862700aec5375c336c5fa7f4344e12a30e
+Filename: pool/main/r/readers-podcasts/readers-podcasts_1.6.0_all.deb
+Size: 336844
+MD5sum: f583f7eae1854d2efe82f5c210b2128a
+SHA1: db3e35df8b6dd969a38e6583e648b8262df34a2a
+SHA256: c992581095ef0ae8cd7531861da957780a8a09309019381585c38e04419bd89d
 Section: sound
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-podcasts-desktop
