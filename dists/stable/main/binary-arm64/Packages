@@ -89,10 +89,10 @@ Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-pil, python3
 Recommends: ipp-usb, tesseract-ocr-osd, sane-utils
 Suggests: naps2
 Filename: pool/main/r/readers-scanner/readers-scanner_1.0.7_all.deb
-Size: 366232
-MD5sum: 7d06b9e984baa5714992796ffc523ed2
-SHA1: 5465d194f626af6679c5c996480ef4704ce41352
-SHA256: 5528679491b0f91238c6f19c3a75e35f59332d62f4c52ed80dbc028891f49982
+Size: 366214
+MD5sum: df06fc964772b58431c186d3d8ae8205
+SHA1: 00554af50d14b21a71143ac7ac51965c98129fd0
+SHA256: 7720ef0f83988433c637bedd33eef5906dd98e35babbfaf38c4aac4ed8bf7d81
 Section: graphics
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-scanner-desktop
