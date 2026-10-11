@@ -4,10 +4,10 @@ Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
 Filename: pool/main/r/readers-books/readers-books_1.2.0_all.deb
-Size: 503922
-MD5sum: 2914f73a3c2e62d02e0fd1a3b424c89d
-SHA1: e42be8dcce21f00c17f2f6d41b92e07f294b50d4
-SHA256: b13f4edd2a4282e419af72053fd9a0714e2a599c7bef5d55ee4c8e408f955e0c
+Size: 503792
+MD5sum: 029b517f62f82759ad2113061b1d8452
+SHA1: 022a859cf1663850aab2c1abbbcf9f57e0905159
+SHA256: 3d018981c88c59f6313bc508a3625b87a6943d7eeb37e2408bbeb3820bf7b17a
 Section: text
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-books-desktop
@@ -20,16 +20,16 @@ Description: Black-and-white e-book reader: a shelf, and pages cut at whole line
  asked for. The desktop twin of the Reader's Books Android app.
 
 Package: readers-calendar
-Version: 1.14.6
+Version: 1.14.7
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-dateutil
 Recommends: fonts-roboto
-Filename: pool/main/r/readers-calendar/readers-calendar_1.14.6_all.deb
-Size: 338790
-MD5sum: 0b5a03b99e43c5eacf81e5ad6d7f2ee5
-SHA1: d15cba9dcf4af75f3a1e9bdeeba551a7295a780f
-SHA256: f170a7a63274d7323135cba6803cbf4cd2cf650e8704de242691b8fff53c6076
+Filename: pool/main/r/readers-calendar/readers-calendar_1.14.7_all.deb
+Size: 338854
+MD5sum: 2c094dfddccf2ea1f59724aa5c0436d2
+SHA1: 489e6cb077a3138b29eb12125622b8620f6be889
+SHA256: a99d704ee30873221aa069ff9e352f48a933c1107f583d3359299bc78277b8bb
 Section: utils
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-calendar-desktop
@@ -44,10 +44,10 @@ Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
 Filename: pool/main/r/readers-notes/readers-notes_1.4.1_all.deb
-Size: 310194
-MD5sum: ab11c556a6e731dd6dad2776459ed425
-SHA1: b084596bdc72ce1a6df197c2344bada2880ec884
-SHA256: 6c08c91d4136b1389b653525695821399a5fd597f92527c7349c01aeed2b5793
+Size: 310204
+MD5sum: 91ef0e5429e54e2da29b1629ea6d27c8
+SHA1: 74e27d04988c0251a60ea0d019eacce81be76974
+SHA256: 74b1888deeb2d68d70d43cb0cf8175f5604586f826e6e5a4424a3e66768ddba2
 Section: utils
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-notes-desktop
@@ -109,15 +109,15 @@ Description: One-click scanning to searchable PDFs, filed with the phone's
  Nextcloud...). Black and white, no account with the app.
 
 Package: readers-tasks
-Version: 1.6.6
+Version: 1.6.7
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
-Filename: pool/main/r/readers-tasks/readers-tasks_1.6.6_all.deb
-Size: 302432
-MD5sum: 06972c8b09460de8911960b0117a303d
-SHA1: 460f495bf7245d3694ecc811e9075d14f01be7d2
-SHA256: d7bf5f338162ad10db068ac7974ae96fb53e4a0579358d30b9c7bd09efa80c0b
+Filename: pool/main/r/readers-tasks/readers-tasks_1.6.7_all.deb
+Size: 302422
+MD5sum: b4c6343603c7463ea3c321e2ec1cf7b4
+SHA1: 6b1d3e26751deac63841f6bc974bfe44f48f2d85
+SHA256: 1e8c98e54fa26b1cc7ca0e44b580d0f87433ccc58afc7d39dcc6aace1ff7afba
 Section: utils
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-tasks
