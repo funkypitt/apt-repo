@@ -4,39 +4,39 @@ Hash: SHA512
 Architectures: amd64 arm64
 Codename: stable
 Components: main
-Date: Sun, 11 Oct 2026 11:53:58 +0000
+Date: Sun, 11 Oct 2026 20:08:54 +0000
 Description: Reader's apps for Linux (gallaz.ch/eink)
 Label: funkypitt
 Origin: funkypitt
 Suite: stable
 MD5Sum:
- 91bee636964a9d4cfc0120accb7b5b2c              202 Release
- 93bbf780e98972ba7d41f14909d4ebd6             6804 main/binary-amd64/Packages
- ae3e114473c3a4c81fd70996a06c6c83             2783 main/binary-amd64/Packages.gz
+ a4be60de53ac4af681e1b89c0575fed1              202 Release
+ 19b32641fc5482c800365d879920d004             6804 main/binary-amd64/Packages
+ 1f2e512b52264272454a3758f17d1a77             2786 main/binary-amd64/Packages.gz
  0261e955c7e85b0bf7e2b7ccc9f23767             6011 main/binary-arm64/Packages
  87a981e94308ea08c99cd16f0390837d             2443 main/binary-arm64/Packages.gz
 SHA1:
- 4fedbc18de827c32ed4f4a89513f11a8209b26c6              202 Release
- fa080edd60c26aeccb0ad3123a718f8243590373             6804 main/binary-amd64/Packages
- 75c20c9c8511bf84ac8961b41fdc9f5b3063546f             2783 main/binary-amd64/Packages.gz
+ 71eb202f39be056aa767398db0ce9575b5ddea17              202 Release
+ 9771f22d790160c86a34412829c82917d85ec52e             6804 main/binary-amd64/Packages
+ f07d9cad6c7e5bebf386cea8d8c92b00fb9b0b0d             2786 main/binary-amd64/Packages.gz
  f9cfc2d58b94ab8a7d428d9401df3e022d511052             6011 main/binary-arm64/Packages
  87ff2b5933460c86719f4baa50ca7cf6d869fc72             2443 main/binary-arm64/Packages.gz
 SHA256:
- d0f1a81a3283feee66f8b43cadec34a935e56d3776de618a02c01f264f0fcc40              202 Release
- 37311b35f944200583edc8ac3d3059faef0da2ae921c07a57d0417c155c88150             6804 main/binary-amd64/Packages
- a53f9195d0c0180d9ebfb81984675dae2ffe2ba6e871e5b42520fdd6736b6b2c             2783 main/binary-amd64/Packages.gz
+ bfe44bef9beddd75b0925b5e360bbd22f865fb0537b97e88ef76fddd0acf45e1              202 Release
+ b4d6674d8e3435f83ef21683bd292a38929ee9366b5afa4aaadc94a19c1d6ee5             6804 main/binary-amd64/Packages
+ 367ed9eece0689a50740edddb4b2cbf4f83b58a721fd642f70b6827bb8e863df             2786 main/binary-amd64/Packages.gz
  8818c82358f2659e46315736146633e22ae7be872088b08d90fed426f7e85cb6             6011 main/binary-arm64/Packages
  03d72fe4972b97219238a9cd4aaf468c3032906c101ce01c9387720522b658ec             2443 main/binary-arm64/Packages.gz
 SHA512:
- 822a5318bde597e17da68cde5dfc2090ceae9c687eb2061808088957775f0cd3e3bd5c30ed6dde15c5455cd4f5dbec68c331fdb9bbca59ad1246feab0d6ef627              202 Release
- 4597ee1d644269ef969aae7450407f4998ff169e20b176ae42dc19e2e1bf0727bdd4644c0655209e6387012288d1bbad971509da6d8aaeac0648099da71d471d             6804 main/binary-amd64/Packages
- cdde77b2f49349fe5698d51b659359848345c40b92d90057f7da27459504581c060a325033b2f6565eb00739610270964616b9c54d969d720e3729a71850bd13             2783 main/binary-amd64/Packages.gz
+ 28423fb81edaab5ed805e7c5425552613755f3cfc82815408fe606346c6a912154d78529822e224c8b4677ec5d682fa16fced3c25d73ea221455bcc34701fe59              202 Release
+ 49e2ff129d00236dfc231e6b9d3f0a34ed22457f7531870f981596e9172e5adc9fb9c348ade2e11ac8269db37283e69b7e06e2ee86c03d2854b7d9256e7cc552             6804 main/binary-amd64/Packages
+ 4c8ec310294bbea44bdd866ad9fd35910ed712b2d6e0a813c31c97b68b945704eaf66ae6b15f448710384c251502cfa8cc987bb60daabb498e5fc6fae3ee3ff8             2786 main/binary-amd64/Packages.gz
  de823a13c9291ccc05d23baa123422c3df92b643c5928c7f7bb53e5f933661b2968b6d358288ad00e27939952586b7a48c3514620065c1ee5b3847faabf30049             6011 main/binary-arm64/Packages
  13970a9fefb6b2d779b0047a911028af750f0382936fff209ff7de115dcef3272f898d37f48e29bd3a7d8601e4218d0605e491e5d4f73a154cd1879388c94e48             2443 main/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iI0EARYKADUWIQR3As13Oq27yVkMtEv/IS9bbBb+bAUCast41hcccGllcnJlZ2Fs
-bGF6QGdtYWlsLmNvbQAKCRD/IS9bbBb+bJYSAPwPuBRmYL4aqGlqKNtL38+s6A/r
-t+PJrTkqCOXIFq2PMgD/S55WdglZhDOmfwrodIM7/iDkehi4YJZw5XOo1EPUWw8=
-=23KQ
+iI0EARYKADUWIQR3As13Oq27yVkMtEv/IS9bbBb+bAUCasvs1hcccGllcnJlZ2Fs
+bGF6QGdtYWlsLmNvbQAKCRD/IS9bbBb+bLPwAP9gYrKfNoN1EQutp/9OBo4AdjyF
++KhUE5oJKASPcfV/QgD/Z0BLWNFmYftFI/2Kpj0QfeuNOfC1MlFR7lCBas9pkgA=
+=lN6G
 -----END PGP SIGNATURE-----

@@ -1,14 +1,14 @@
 Package: quai
-Version: 0.2.1
+Version: 0.3.0
 Architecture: amd64
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: libc6 (>= 2.34)
 Recommends: cosmic-session
-Filename: pool/main/q/quai/quai_0.2.1_amd64.deb
-Size: 2886324
-MD5sum: 56a0d1cffa7d82774a21855e4d71529f
-SHA1: e931a620af35fd6b2bc81896b1e4c564c50870f2
-SHA256: e3d12cbc8d3017146148d4a154aae74fd5e126920ea02921e4c9fed7bb3e2cda
+Filename: pool/main/q/quai/quai_0.3.0_amd64.deb
+Size: 2896490
+MD5sum: b2e4639b369fb8dbefadafa636ed7357
+SHA1: 8cae77d2886f88fee2a593c7d893df2130c0e7a9
+SHA256: f8b4550f9ec8688c154f6f625076bae657252861241f0b29c367908740066177
 Section: x11
 Priority: optional
 Homepage: https://github.com/funkypitt/quai
