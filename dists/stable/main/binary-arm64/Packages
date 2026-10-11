@@ -1,13 +1,13 @@
 Package: readers-books
-Version: 1.1.1
+Version: 1.2.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
-Filename: pool/main/r/readers-books/readers-books_1.1.1_all.deb
-Size: 500640
-MD5sum: f56c044b4df25f1cc9ed10f0cbeddad7
-SHA1: b8fbcff10e10247f19a2d06cf2a73db4c72d56ff
-SHA256: 7c5c7a179c04e4510dc79af296d95ec67e844dd8e203d2e4177d9b8a1cddc0dc
+Filename: pool/main/r/readers-books/readers-books_1.2.0_all.deb
+Size: 503922
+MD5sum: 2914f73a3c2e62d02e0fd1a3b424c89d
+SHA1: e42be8dcce21f00c17f2f6d41b92e07f294b50d4
+SHA256: b13f4edd2a4282e419af72053fd9a0714e2a599c7bef5d55ee4c8e408f955e0c
 Section: text
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-books-desktop
@@ -39,15 +39,15 @@ Description: Black-and-white, text-only CalDAV calendar
  event page in two columns. White on black or black on white.
 
 Package: readers-notes
-Version: 1.4.0
+Version: 1.4.1
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
-Filename: pool/main/r/readers-notes/readers-notes_1.4.0_all.deb
-Size: 310172
-MD5sum: 31f0515e5fc63f74f8692b4a49bef3fa
-SHA1: a5411d0000f9010a044f63182212dd40c29f437b
-SHA256: cf9306f57d55d3d9fb0f0775adc402e901736fc96ddebc48cfb3c2f066f934fa
+Filename: pool/main/r/readers-notes/readers-notes_1.4.1_all.deb
+Size: 310194
+MD5sum: ab11c556a6e731dd6dad2776459ed425
+SHA1: b084596bdc72ce1a6df197c2344bada2880ec884
+SHA256: 6c08c91d4136b1389b653525695821399a5fd597f92527c7349c01aeed2b5793
 Section: utils
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-notes-desktop
@@ -57,16 +57,16 @@ Description: Black-and-white, plain-text notes synced over WebDAV
  step with the Reader's Notes Android app. White on black or black on white.
 
 Package: readers-podcasts
-Version: 1.5.0
+Version: 1.5.1
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-pyqt5.qtmultimedia, libqt5multimedia5-plugins, python3-requests, gstreamer1.0-plugins-good
 Recommends: gstreamer1.0-libav, yt-dlp, ffmpeg
-Filename: pool/main/r/readers-podcasts/readers-podcasts_1.5.0_all.deb
-Size: 336374
-MD5sum: 7545ecae0a395cce87a1dce6ff3be686
-SHA1: bf81800bf94b797e9e92bbfd529fe8f8e574e05e
-SHA256: 5c0c75afda30ae5bcc84cd320f776c655de9ceafb828091ca288cd48dca58b2f
+Filename: pool/main/r/readers-podcasts/readers-podcasts_1.5.1_all.deb
+Size: 336380
+MD5sum: 8ae7c53c6ceb964629db64bf1f8ea425
+SHA1: c4441c8fdc37b1c153dbb64886c9b1c63516890f
+SHA256: 292e203af4c195f001249c1f8d85f6862700aec5375c336c5fa7f4344e12a30e
 Section: sound
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-podcasts-desktop
@@ -82,17 +82,17 @@ Description: Black-and-white, text-only podcast player
  they are installed; the text is read against the sound.
 
 Package: readers-scanner
-Version: 1.0.6
+Version: 1.0.7
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-pil, python3-numpy, python3-zeroconf, tesseract-ocr, poppler-utils
 Recommends: ipp-usb, tesseract-ocr-osd, sane-utils
 Suggests: naps2
-Filename: pool/main/r/readers-scanner/readers-scanner_1.0.6_all.deb
-Size: 366194
-MD5sum: 6b1068629990a6970b8355317027e3ab
-SHA1: 8f8a46ba39038ac1d6224b95eef0d7f77d4ec4c6
-SHA256: db5e1bd296b78fc6d308de670a0b08e5c67f4fa95bbd8385fa1936f916ed3c7b
+Filename: pool/main/r/readers-scanner/readers-scanner_1.0.7_all.deb
+Size: 366232
+MD5sum: 7d06b9e984baa5714992796ffc523ed2
+SHA1: 5465d194f626af6679c5c996480ef4704ce41352
+SHA256: 5528679491b0f91238c6f19c3a75e35f59332d62f4c52ed80dbc028891f49982
 Section: graphics
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-scanner-desktop
