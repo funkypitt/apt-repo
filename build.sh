@@ -1,5 +1,6 @@
 #!/bin/bash
-# Rebuilds the apt repository from the latest GitHub release of each repo in repos.txt.
+# Rebuilds the apt repository from the latest GitHub release of each repo in repos.txt,
+# plus the .deb files committed in extra/ (apps whose source is not public).
 # Needs: curl, dpkg-dev (dpkg-scanpackages), apt-utils (apt-ftparchive), gpg with the signing key.
 # Env: GPG_HOMEDIR (default ~/.apt-repo/gnupg), GITHUB_TOKEN (optional, raises the API limit).
 set -euo pipefail
@@ -30,6 +31,14 @@ while read -r repo; do
     echo "   $f ($(dpkg-deb -f "pool/$COMPONENT/$first/$pkg/$f" Version))"
   done
 done < repos.txt
+
+# 1b. Packages whose source stays private: their .deb is committed by hand in extra/.
+for f in extra/*.deb; do
+  [ -e "$f" ] || continue
+  pkg=$(dpkg-deb -f "$f" Package); first=${pkg:0:1}
+  mkdir -p "pool/$COMPONENT/$first/$pkg"; cp "$f" "pool/$COMPONENT/$first/$pkg/"; chmod 644 "pool/$COMPONENT/$first/$pkg/$(basename "$f")"
+  echo "== extra: $(basename "$f") ($(dpkg-deb -f "$f" Version))"
+done
 
 # 2. Packages indexes: one per architecture, the same "all" packages listed in each
 #    (apt asks for its own architecture's index and expects arch-independent packages there).
