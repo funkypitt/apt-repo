@@ -147,16 +147,16 @@ Description: Black-and-white, text-only CalDAV task list
  to tick and a line to add. White on black or black on white.
 
 Package: readers-writer
-Version: 0.3.3
+Version: 0.4.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
-Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-markdown, libqt5svg5
-Recommends: python3-matplotlib, python3-keyring, python3-pyqt5.qtwebengine
-Filename: pool/main/r/readers-writer/readers-writer_0.3.3_all.deb
-Size: 494074
-MD5sum: f4d4816653c23c3640f9093e9600f0e4
-SHA1: da5eda13ae3d07f4bf5b78eb638a90fc828cd4df
-SHA256: f56d99977af7ef3ec34a6c25990ccf0b9b67caa0ca6777d772791600c60a3a8c
+Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-markdown, libqt5svg5, libenchant-2-2
+Recommends: python3-matplotlib, python3-keyring, python3-pyqt5.qtwebengine, hunspell-fr, hunspell-en-us
+Filename: pool/main/r/readers-writer/readers-writer_0.4.0_all.deb
+Size: 558530
+MD5sum: 201f904e4c049136100b614e215f27b6
+SHA1: 10d16c0a7ee0f4495f4ff885aec3cc6add742ccc
+SHA256: 4508a83269e7de61447b84bfd9e37ea935e8840ba937a9bf2ab921a0cc96f760
 Section: editors
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-writer
