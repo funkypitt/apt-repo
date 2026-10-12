@@ -147,16 +147,16 @@ Description: Black-and-white, text-only CalDAV task list
  to tick and a line to add. White on black or black on white.
 
 Package: readers-writer
-Version: 0.5.0
+Version: 0.6.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-markdown, libqt5svg5, libenchant-2-2
 Recommends: python3-matplotlib, python3-keyring, python3-pyqt5.qtwebengine, python3-docx, hunspell-fr, hunspell-en-us
-Filename: pool/main/r/readers-writer/readers-writer_0.5.0_all.deb
-Size: 561714
-MD5sum: 87323930fcfbeb817c0e6f8fff11aec6
-SHA1: e9ea161dfab1f9fe63b1028826486d7443926401
-SHA256: 68f2a67a6a130fbacdf0f16f58d9c417f25095ae292d9094e87c6b29ae251be6
+Filename: pool/main/r/readers-writer/readers-writer_0.6.0_all.deb
+Size: 565932
+MD5sum: 288ffdd0d7cd94bad325b97042284d24
+SHA1: e7b167c9ea02356ddf1684a6656d21750e78b279
+SHA256: bab7e8199e7a47a9cbc9d73ce336f2995e952251698bd4466f1104284fbf5fde
 Section: editors
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-writer
