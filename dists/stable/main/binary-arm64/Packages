@@ -126,3 +126,26 @@ Description: Black-and-white, text-only CalDAV task list
  Nextcloud, Radicale...). Lists on the left, open tasks on the right, a box
  to tick and a line to add. White on black or black on white.
 
+Package: readers-writer
+Version: 0.3.2
+Architecture: all
+Maintainer: funkypitt <pierregallaz@gmail.com>
+Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-markdown, libqt5svg5
+Recommends: python3-matplotlib, python3-keyring, python3-pyqt5.qtwebengine
+Filename: pool/main/r/readers-writer/readers-writer_0.3.2_all.deb
+Size: 493610
+MD5sum: f1c662b66ee56108bfcb759e5d435e12
+SHA1: d4a4d22cb687583233b2ed56eb3d01820b539733
+SHA256: b70a28c5bf008f7b28340c554008e26695d2153b13e736f7c0bd27c315775ab2
+Section: editors
+Priority: optional
+Homepage: https://github.com/funkypitt/readers-writer
+Description: A writing room for a post, with an assistant beside it
+ The post on the left (Markdown in Substack's manner, words and characters
+ against a recommended length), the assistant on the right: Claude through
+ the Claude Code command on your own plan, acting on the selection or the
+ whole post (question, fact-check, rephrase, references, summary, critique,
+ chart), every answer insertable. Posts synced over WebDAV (kDrive,
+ Nextcloud...). Copy as HTML for Google Docs or Substack; Substack draft
+ (experimental). Black on white or white on black, amber filter.
+
