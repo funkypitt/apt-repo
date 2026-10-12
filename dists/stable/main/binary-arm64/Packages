@@ -127,16 +127,16 @@ Description: Black-and-white, text-only CalDAV task list
  to tick and a line to add. White on black or black on white.
 
 Package: readers-writer
-Version: 0.6.0
+Version: 0.7.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-markdown, libqt5svg5, libenchant-2-2
-Recommends: python3-matplotlib, python3-keyring, python3-pyqt5.qtwebengine, python3-docx, hunspell-fr, hunspell-en-us
-Filename: pool/main/r/readers-writer/readers-writer_0.6.0_all.deb
-Size: 565932
-MD5sum: 288ffdd0d7cd94bad325b97042284d24
-SHA1: e7b167c9ea02356ddf1684a6656d21750e78b279
-SHA256: bab7e8199e7a47a9cbc9d73ce336f2995e952251698bd4466f1104284fbf5fde
+Recommends: python3-matplotlib, python3-keyring, python3-pyqt5.qtwebengine, python3-docx, hunspell-fr, hunspell-en-us, default-jre-headless
+Filename: pool/main/r/readers-writer/readers-writer_0.7.0_all.deb
+Size: 581496
+MD5sum: 2569c2fce8b82678ad546c8ed47a1a23
+SHA1: 4b6b5f2715251ceabdb7a1d5e28a96c35df6b792
+SHA256: 1705d4777bcdaab84c3d524a4f7678e5bbfd0c3154e725346413be41b3fd805b
 Section: editors
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-writer
@@ -145,7 +145,9 @@ Description: A writing room for a post, with an assistant beside it
  against a recommended length), the assistant on the right: Claude through
  the Claude Code command on your own plan, acting on the selection or the
  whole post (question, fact-check, rephrase, references, summary, critique,
- chart), every answer insertable. Posts synced over WebDAV (kDrive,
+ chart), every answer insertable — or a model on this computer through
+ Ollama (hybrid, Claude only, local only; the app picks a model for the
+ machine), LanguageTool grammar as you type. Posts synced over WebDAV (kDrive,
  Nextcloud...). Copy as HTML for Google Docs or Substack; Substack draft
  (experimental). Black on white or white on black, amber filter.
 
