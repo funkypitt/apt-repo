@@ -24,10 +24,10 @@ Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
 Filename: pool/main/r/readers-books/readers-books_1.3.0_all.deb
-Size: 505964
-MD5sum: 05813f4076c58952a09bf9287824af27
-SHA1: f595cc0b8d807eb801a02ee232a541d616a9c42e
-SHA256: 740e56da9f37aa27f22c1d35f4bb5171845f9e0b78be7f13b597e55d04aed023
+Size: 506022
+MD5sum: a1dbbd42ab55993cfc01a590adc087ec
+SHA1: fc7239c77a5f4e0b41eba5156acc7f459569e3b4
+SHA256: f9ac8cc0ebc8aa768e7c87dda8552bd8010208ef97f71d19bd4983cdadfbc864
 Section: text
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-books-desktop
@@ -147,16 +147,16 @@ Description: Black-and-white, text-only CalDAV task list
  to tick and a line to add. White on black or black on white.
 
 Package: readers-writer
-Version: 0.13.2
+Version: 0.14.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-markdown, libqt5svg5, libenchant-2-2
 Recommends: python3-matplotlib, python3-keyring, python3-pyqt5.qtwebengine, python3-docx, hunspell-fr, hunspell-en-us, default-jre-headless
-Filename: pool/main/r/readers-writer/readers-writer_0.13.2_all.deb
-Size: 599224
-MD5sum: 1e7623a3adb5c2a915e9cdf45037bd64
-SHA1: 4ad420ebc24aaa95d7df013de2b9eed80ad35b72
-SHA256: ff5f19adb08c9c63e0f747af6581b3e69f649c033971da88c8b92ebc4010e16a
+Filename: pool/main/r/readers-writer/readers-writer_0.14.0_all.deb
+Size: 601344
+MD5sum: 3da3de40071ff010db8cf401b6698b70
+SHA1: 52ca7b85640153c02f3d3305659478d961532a83
+SHA256: 38802c0b52d06fb2d3fccec3eb27a17dcdaaf31ba3cb306ce9e4f6ec5ccc6c48
 Section: editors
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-writer
