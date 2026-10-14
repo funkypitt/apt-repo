@@ -1,13 +1,13 @@
 Package: readers-books
-Version: 1.2.0
+Version: 1.3.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
-Filename: pool/main/r/readers-books/readers-books_1.2.0_all.deb
-Size: 503792
-MD5sum: 029b517f62f82759ad2113061b1d8452
-SHA1: 022a859cf1663850aab2c1abbbcf9f57e0905159
-SHA256: 3d018981c88c59f6313bc508a3625b87a6943d7eeb37e2408bbeb3820bf7b17a
+Filename: pool/main/r/readers-books/readers-books_1.3.0_all.deb
+Size: 505964
+MD5sum: 05813f4076c58952a09bf9287824af27
+SHA1: f595cc0b8d807eb801a02ee232a541d616a9c42e
+SHA256: 740e56da9f37aa27f22c1d35f4bb5171845f9e0b78be7f13b597e55d04aed023
 Section: text
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-books-desktop
