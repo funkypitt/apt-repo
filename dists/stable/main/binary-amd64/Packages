@@ -24,10 +24,10 @@ Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
 Filename: pool/main/r/readers-books/readers-books_1.5.0_all.deb
-Size: 508690
-MD5sum: c57d0bd8526d5ea5cb482f41581f37cf
-SHA1: 825ed6471860778749aea1dfa5b863d2f3242a18
-SHA256: 60f0de7faa7a56384dc08330d4c1e9e6d6fa058084690228210c1bbb0746f7df
+Size: 508776
+MD5sum: 3e680f489a0c48d6da75d0dfde106145
+SHA1: 36fa13b7df2d733414690831e47f9c087b3cda93
+SHA256: 4c61618e0ae859b1773bc8e77b6d87851227e977dc8d94160793f1df4cc51c92
 Section: text
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-books-desktop
