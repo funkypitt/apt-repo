@@ -1,13 +1,14 @@
 Package: readers-books
-Version: 1.5.0
+Version: 1.6.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
-Filename: pool/main/r/readers-books/readers-books_1.5.0_all.deb
-Size: 508776
-MD5sum: 3e680f489a0c48d6da75d0dfde106145
-SHA1: 36fa13b7df2d733414690831e47f9c087b3cda93
-SHA256: 4c61618e0ae859b1773bc8e77b6d87851227e977dc8d94160793f1df4cc51c92
+Recommends: python3-venv
+Filename: pool/main/r/readers-books/readers-books_1.6.0_all.deb
+Size: 521504
+MD5sum: 2076e3baad22e7d60d845eae26f9fd0a
+SHA1: f85f8343aeb3f0b0062b738ffc1091f62c557a89
+SHA256: a99f0a356a989d6c3983552384fb8a228b554067ec6e83294b5dd4d2253c38cd
 Section: text
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-books-desktop
@@ -17,7 +18,9 @@ Description: Black-and-white e-book reader: a shelf, and pages cut at whole line
  Pictures in EPUBs are shown in the page, magazine issues open on their
  contents. An optional library lists the e-books kept on a drive (a public
  kDrive share link or any WebDAV address) and fetches a book when it is
- asked for. The desktop twin of the Reader's Books Android app.
+ asked for. A paper in PDF becomes an EPUB, its figures, tables and
+ equations as pictures, by a converter set up on first use (python3-venv;
+ about 2 GB downloaded). The desktop twin of the Reader's Books Android app.
 
 Package: readers-calendar
 Version: 1.14.7
