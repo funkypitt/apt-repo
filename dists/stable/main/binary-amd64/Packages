@@ -19,16 +19,16 @@ Description: Two-column Unity-style dock for the COSMIC desktop
  in ~/.config/quai/config.toml, switches COSMIC's own dock off.
 
 Package: readers-books
-Version: 1.6.0
+Version: 1.6.1
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
 Recommends: python3-venv
-Filename: pool/main/r/readers-books/readers-books_1.6.0_all.deb
-Size: 521362
-MD5sum: 3faeed3ab70de6973d9fc7b7b6afa5ae
-SHA1: a830b608e222e34873fddd2150392d6ad51d2f10
-SHA256: 7815a5cb6241975b68a7343ea65be045ed11aabb51898449e30ac9e486686c41
+Filename: pool/main/r/readers-books/readers-books_1.6.1_all.deb
+Size: 521574
+MD5sum: 246a58bed2e9f4a7fcd3403e9b144536
+SHA1: 0a083cac87a6cba6c0678e31790ab1e1cad73fa6
+SHA256: 07011e659fe2f02cd9737645f5f4059c9120c79f8084fdd347bfd38e9d2f317c
 Section: text
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-books-desktop
