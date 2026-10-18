@@ -5,10 +5,10 @@ Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
 Recommends: python3-venv, tesseract-ocr, tesseract-ocr-fra, tesseract-ocr-deu, tesseract-ocr-spa, tesseract-ocr-por, tesseract-ocr-rus
 Filename: pool/main/r/readers-books/readers-books_1.8.0_all.deb
-Size: 527968
-MD5sum: 6212b225100763ebe2aaff6514a92a9d
-SHA1: 5136440412f647389139620a445af156c6e8ff28
-SHA256: 76cf724d4bcf61a049e28295baf2cbdba2b93f401a398370c73570cebcf3ce1c
+Size: 528024
+MD5sum: 281757254db954eb434f6917d09bba9f
+SHA1: 701acccb8e3aeb523e33222de1c8ff4b30d71e7b
+SHA256: bb0bbb9b658a775f934fd33c3d80ea890717e0e8d1702b6b6dc52c1b4a482f6b
 Section: text
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-books-desktop
@@ -130,16 +130,16 @@ Description: Black-and-white, text-only CalDAV task list
  to tick and a line to add. White on black or black on white.
 
 Package: readers-writer
-Version: 0.15.0
+Version: 0.16.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-markdown, libqt5svg5, libenchant-2-2
-Recommends: python3-matplotlib, python3-keyring, python3-pyqt5.qtwebengine, python3-docx, hunspell-fr, hunspell-en-us, default-jre-headless
-Filename: pool/main/r/readers-writer/readers-writer_0.15.0_all.deb
-Size: 602146
-MD5sum: 549b64c2378ae33aa6789cef225e56dc
-SHA1: 18949b9c8880665ce0c8babd8a0bf2ca8ff9fdcf
-SHA256: 25d2c0a09d638d823d2da1aedc95f283b5e848ea66287425e89f8fbbb21debbf
+Recommends: python3-matplotlib, python3-keyring, python3-pyqt5.qtwebengine, python3-docx, hunspell-fr, hunspell-en-us, default-jre-headless, poppler-utils
+Filename: pool/main/r/readers-writer/readers-writer_0.16.0_all.deb
+Size: 618630
+MD5sum: c5e77eb0dd1b0db551e1444aa22027d8
+SHA1: ccf5ce2a356440f0ed915ef707f12e41c3db138f
+SHA256: 0fe3245c45ee5099ea482b75f864c5ffb8c2a770bd4cb15d219fc2318d4ca2d7
 Section: editors
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-writer
@@ -155,16 +155,16 @@ Description: A writing room for a post, with an assistant beside it
  (experimental). Black on white or white on black, amber filter.
 
 Package: readers-writer
-Version: 0.16.0
+Version: 0.16.1
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-markdown, libqt5svg5, libenchant-2-2
 Recommends: python3-matplotlib, python3-keyring, python3-pyqt5.qtwebengine, python3-docx, hunspell-fr, hunspell-en-us, default-jre-headless, poppler-utils
-Filename: pool/main/r/readers-writer/readers-writer_0.16.0_all.deb
-Size: 618630
-MD5sum: c5e77eb0dd1b0db551e1444aa22027d8
-SHA1: ccf5ce2a356440f0ed915ef707f12e41c3db138f
-SHA256: 0fe3245c45ee5099ea482b75f864c5ffb8c2a770bd4cb15d219fc2318d4ca2d7
+Filename: pool/main/r/readers-writer/readers-writer_0.16.1_all.deb
+Size: 619428
+MD5sum: e1bfdbe5cbf9e34f135e37288c621090
+SHA1: d6449abc856551c0578833241fcb0fc01d9504a2
+SHA256: d414b8e34eae5418e49cfd9853881627dd1844a2abe0a060c19fea30c0113ecc
 Section: editors
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-writer
