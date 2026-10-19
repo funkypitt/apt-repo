@@ -5,10 +5,10 @@ Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
 Recommends: python3-venv, tesseract-ocr, tesseract-ocr-fra, tesseract-ocr-deu, tesseract-ocr-spa, tesseract-ocr-por, tesseract-ocr-rus
 Filename: pool/main/r/readers-books/readers-books_1.9.0_all.deb
-Size: 529124
-MD5sum: e5801c45df932ff6d78922a1d1743421
-SHA1: 320196d4773e4ba95fbec345cce7431a579f2595
-SHA256: 5dab7ce0ad82f8bee46c50ec60c3b4bf0cd34d9003ff18df0cf29cd4c253c12c
+Size: 529084
+MD5sum: 3886d1b079c79bd5e595843d34bed190
+SHA1: 9c126b9f418dda5e27e3230b4b21e81b5249c4ec
+SHA256: c1e8b5fcd9257a810f5ca5b6fc9d51fcae0c7375821c6df3a3d71e57e5b9cb37
 Section: text
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-books-desktop
