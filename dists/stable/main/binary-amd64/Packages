@@ -19,16 +19,16 @@ Description: Two-column Unity-style dock for the COSMIC desktop
  in ~/.config/quai/config.toml, switches COSMIC's own dock off.
 
 Package: readers-books
-Version: 1.10.0
+Version: 1.11.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
 Recommends: python3-venv, tesseract-ocr, tesseract-ocr-fra, tesseract-ocr-deu, tesseract-ocr-spa, tesseract-ocr-por, tesseract-ocr-rus
-Filename: pool/main/r/readers-books/readers-books_1.10.0_all.deb
-Size: 530300
-MD5sum: d44c5f987f4fe6ad0fc8c13d858d1592
-SHA1: 546542880473fca01d4943c2a99e180d379331c5
-SHA256: 82abb5e5635bf13351449057cdb98a7f28bebdb98243da81b2ce2659f5c13340
+Filename: pool/main/r/readers-books/readers-books_1.11.0_all.deb
+Size: 531014
+MD5sum: a048a24447d30a8ea71ffd9def8ad3b4
+SHA1: 00e0fd420b4073ad6fa62ae96a0d808c16c61796
+SHA256: edf04dca5526bf3ee1cb2bb4225ca0114884b5566ba3f6b141ce8b14c51a508c
 Section: text
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-books-desktop
@@ -43,16 +43,16 @@ Description: Black-and-white e-book reader: a shelf, and pages cut at whole line
  about 2 GB downloaded). The desktop twin of the Reader's Books Android app.
 
 Package: readers-calendar
-Version: 1.15.0
+Version: 1.16.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-dateutil
 Recommends: fonts-roboto
-Filename: pool/main/r/readers-calendar/readers-calendar_1.15.0_all.deb
-Size: 340016
-MD5sum: e3c38d42d6e76bcafda6602180fd3c26
-SHA1: dcc7f9037a4f6763746e01240c03b66bc48b1a52
-SHA256: 6f2516d7a43a61f4379cf7d0541579ff02e9e9ed28c806025439851ac9b787cf
+Filename: pool/main/r/readers-calendar/readers-calendar_1.16.0_all.deb
+Size: 341434
+MD5sum: a6c20615dd6cc737c73ce59fff4873b5
+SHA1: f0630073b037df9178738904c5b6354922c37192
+SHA256: f5f72a25976fe62152272594a762a8ad354785134ff343da415af87cc55560f1
 Section: utils
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-calendar-desktop
@@ -62,15 +62,15 @@ Description: Black-and-white, text-only CalDAV calendar
  event page in two columns. White on black or black on white.
 
 Package: readers-notes
-Version: 1.6.0
+Version: 1.7.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
-Filename: pool/main/r/readers-notes/readers-notes_1.6.0_all.deb
-Size: 314084
-MD5sum: 91af008d80241dc4151be111928dc1b1
-SHA1: aecec3a3e09feacaa8b26437c92687e669dec8b1
-SHA256: e38cc5e1ff135e752c223fd49a079a15bc486137d1f596fcc5312666c7fd22b4
+Filename: pool/main/r/readers-notes/readers-notes_1.7.0_all.deb
+Size: 315274
+MD5sum: c9bfedc25115a1e373d24d63e1b4cdbb
+SHA1: 1665bd5232eeb28dee2d7ed266c501aab6ec8387
+SHA256: c4bb602c95988950a7405dcddd41993f38444af4e28319411c67f689bb13a0b8
 Section: utils
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-notes-desktop
@@ -80,16 +80,16 @@ Description: Black-and-white, plain-text notes synced over WebDAV
  step with the Reader's Notes Android app. White on black or black on white.
 
 Package: readers-podcasts
-Version: 1.8.0
+Version: 1.9.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-pyqt5.qtmultimedia, libqt5multimedia5-plugins, python3-requests, gstreamer1.0-plugins-good
 Recommends: gstreamer1.0-libav, yt-dlp, ffmpeg
-Filename: pool/main/r/readers-podcasts/readers-podcasts_1.8.0_all.deb
-Size: 338604
-MD5sum: 405d98f8653e13ec781e8fda70a0ddf4
-SHA1: 9d1893fd7efc09de9e296f29a7988d411da604dd
-SHA256: b3ec09d0a163d16d1818f79599a52d76608d025b4dd9f5702781fe9310a22fab
+Filename: pool/main/r/readers-podcasts/readers-podcasts_1.9.0_all.deb
+Size: 340562
+MD5sum: 337cd2e6a38854c8f037942f47b62d51
+SHA1: e27285ee22c727bd1349cd2f74e758f8ebd8a284
+SHA256: a464d85db749ac3d9094a1a8bc0fca7881a1c367f150b75de724e9d88caf336e
 Section: sound
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-podcasts-desktop
@@ -105,17 +105,17 @@ Description: Black-and-white, text-only podcast player
  they are installed; the text is read against the sound.
 
 Package: readers-scanner
-Version: 1.1.0
+Version: 1.2.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-pil, python3-numpy, python3-zeroconf, tesseract-ocr, poppler-utils
 Recommends: ipp-usb, tesseract-ocr-osd, sane-utils
 Suggests: naps2
-Filename: pool/main/r/readers-scanner/readers-scanner_1.1.0_all.deb
-Size: 367446
-MD5sum: 6973f7a98ded4c51c3533d7f72541ee4
-SHA1: d05539260eb4d4897debc05375e443721a19f5aa
-SHA256: 5d481d34f9c8f635e91a49365d9c85c481b3cc7c4ffded4514114bfabb72da36
+Filename: pool/main/r/readers-scanner/readers-scanner_1.2.0_all.deb
+Size: 368636
+MD5sum: 22f60f87cdac7057a5c94937bd6a5ad6
+SHA1: cb035920510d9c2ff8f6202b8daa38a7dbf65bb5
+SHA256: 793309ab5e1d34f246dfb6864294645b1df29a000c06325723569897707f5934
 Section: graphics
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-scanner-desktop
@@ -132,15 +132,15 @@ Description: One-click scanning to searchable PDFs, filed with the phone's
  Nextcloud...). Black and white, no account with the app.
 
 Package: readers-tasks
-Version: 1.7.0
+Version: 1.8.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
-Filename: pool/main/r/readers-tasks/readers-tasks_1.7.0_all.deb
-Size: 303946
-MD5sum: 60e59fd8096d06618cf30bbc8c336bfc
-SHA1: 80672d1e4adef63726008c1e8554d3740abc321b
-SHA256: 3f2519892443a4148e39ee00cb6b4cf4b7250dd0160323a2f329f1f3d2230a64
+Filename: pool/main/r/readers-tasks/readers-tasks_1.8.0_all.deb
+Size: 304936
+MD5sum: 6422625f20ef5caf512a8383776a8c2f
+SHA1: 54b08e7fca1b82b724f0f0e829b2dde2c61152c6
+SHA256: 303b176aa7dcff8275713036a431ae453f1795b2d55498ad08232e287986a014
 Section: utils
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-tasks
