@@ -42,15 +42,15 @@ Description: Black-and-white, text-only CalDAV calendar
  event page in two columns. White on black or black on white.
 
 Package: readers-notes
-Version: 1.5.0
+Version: 1.6.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
-Filename: pool/main/r/readers-notes/readers-notes_1.5.0_all.deb
-Size: 311300
-MD5sum: 2289fa5e9dff53dc20ebffdd1e87219e
-SHA1: b3064772bd8d29d7cadb42a9b848c49dc5cad502
-SHA256: 0c694c719bf51a2f7a682e4507db60de1bbf9c6455be46cf8b2f0f0b9cc8d293
+Filename: pool/main/r/readers-notes/readers-notes_1.6.0_all.deb
+Size: 314084
+MD5sum: 91af008d80241dc4151be111928dc1b1
+SHA1: aecec3a3e09feacaa8b26437c92687e669dec8b1
+SHA256: e38cc5e1ff135e752c223fd49a079a15bc486137d1f596fcc5312666c7fd22b4
 Section: utils
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-notes-desktop
