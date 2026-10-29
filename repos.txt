@@ -6,3 +6,4 @@ readers-notes-desktop
 readers-podcasts-desktop
 readers-scanner-desktop
 quai
+readers-video-editor
