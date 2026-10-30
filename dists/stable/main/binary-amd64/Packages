@@ -149,6 +149,27 @@ Description: Black-and-white, text-only CalDAV task list
  Nextcloud, Radicale...). Lists on the left, open tasks on the right, a box
  to tick and a line to add. White on black or black on white.
 
+Package: readers-video-editor
+Version: 1.6.0
+Architecture: all
+Maintainer: funkypitt <pierregallaz@gmail.com>
+Depends: python3 (>= 3.8), python3-pyqt5, python3-pyqt5.qtmultimedia, python3-venv, python3-pip, python3-numpy, python3-soundfile, ffmpeg, gstreamer1.0-plugins-good, gstreamer1.0-libav
+Filename: pool/main/r/readers-video-editor/readers-video-editor_1.6.0_all.deb
+Size: 620718
+MD5sum: 4ae435e21cc43aadc0150be23e9879d8
+SHA1: 8f38841b3958b0f155ddf0e76cf708b52cc16063
+SHA256: 0518c709d0c8669ae377206ba006601ea24c9a1ef5248cadf9e01e96a2190a94
+Section: video
+Priority: optional
+Homepage: https://github.com/funkypitt/readers-video-editor
+Description: Cut a video or a recording by highlighting its text
+ The words of a video or a recording, transcribed on this computer or read
+ from a subtitle file, on a page; what you highlight is kept (or cut), the
+ cuts land in the quiet between two words, each piece gets its fades, and
+ ffmpeg writes the new file with a log of the cuts and an edit list. Also a
+ comfortable reading of the transcript, which can be saved as text.
+ The transcription needs faster-whisper (pip install faster-whisper).
+
 Package: readers-writer
 Version: 0.16.1
 Architecture: all
