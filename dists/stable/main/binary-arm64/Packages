@@ -1,14 +1,14 @@
 Package: readers-books
-Version: 1.11.0
+Version: 1.12.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
 Recommends: python3-venv, tesseract-ocr, tesseract-ocr-fra, tesseract-ocr-deu, tesseract-ocr-spa, tesseract-ocr-por, tesseract-ocr-rus
-Filename: pool/main/r/readers-books/readers-books_1.11.0_all.deb
-Size: 531014
-MD5sum: a048a24447d30a8ea71ffd9def8ad3b4
-SHA1: 00e0fd420b4073ad6fa62ae96a0d808c16c61796
-SHA256: edf04dca5526bf3ee1cb2bb4225ca0114884b5566ba3f6b141ce8b14c51a508c
+Filename: pool/main/r/readers-books/readers-books_1.12.0_all.deb
+Size: 531262
+MD5sum: fdf9055560d3870aef87de121dcc8f57
+SHA1: bb7820a2d8d080f93c884a9bcf1183957b974a68
+SHA256: 603d4808957c72aed32b2a1f318f0cee41da0a2d94d52c6d9031256fe4d7b4f6
 Section: text
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-books-desktop
