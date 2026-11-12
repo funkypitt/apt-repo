@@ -25,10 +25,10 @@ Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests
 Recommends: python3-venv, tesseract-ocr, tesseract-ocr-fra, tesseract-ocr-deu, tesseract-ocr-spa, tesseract-ocr-por, tesseract-ocr-rus
 Filename: pool/main/r/readers-books/readers-books_1.20.1_all.deb
-Size: 590184
-MD5sum: 7ce8cc295c66db7d209287459a9e0595
-SHA1: e710ce4b2f8639b41eadd69b28b543d694a98d91
-SHA256: 8f98375f935c8b11918cdd0524a5b01f35a9388f63f78be2131d25743552722f
+Size: 589156
+MD5sum: 6d6651dcef2e21b48eb4b4632e46fe27
+SHA1: 954b67b54a2c93816e31f43f85d0fe09bd980fee
+SHA256: f3f1b031a5caee9bffd83795036c16e0e607cf16d78a83a3d258b90dfb6dc764
 Section: text
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-books-desktop
@@ -150,15 +150,15 @@ Description: Black-and-white, text-only CalDAV task list
  to tick and a line to add. White on black or black on white.
 
 Package: readers-video-editor
-Version: 1.11.0
+Version: 1.11.1
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-pyqt5.qtmultimedia, python3-venv, python3-pip, python3-numpy, python3-soundfile, ffmpeg, gstreamer1.0-plugins-good, gstreamer1.0-libav
-Filename: pool/main/r/readers-video-editor/readers-video-editor_1.11.0_all.deb
-Size: 654212
-MD5sum: 8ed6c023a05a85f064178e077038a21a
-SHA1: c96841747c3c12f2656ae8150690135486b5ad12
-SHA256: 072604ef28e62a90ec20bec0ce04f453a80b294d568655864da424d226b892e9
+Filename: pool/main/r/readers-video-editor/readers-video-editor_1.11.1_all.deb
+Size: 654436
+MD5sum: 292490c9d15ecc885fee401c78580af4
+SHA1: 4185b783e4eb1d6270bc102f89ada754d38c8115
+SHA256: a3b8c7cc50314c457b7cf48aedd84c7769aa46c53c03f838961a262aae066ab2
 Section: video
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-video-editor
