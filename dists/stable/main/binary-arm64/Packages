@@ -60,16 +60,16 @@ Description: Black-and-white, plain-text notes synced over WebDAV
  step with the Reader's Notes Android app. White on black or black on white.
 
 Package: readers-podcasts
-Version: 1.11.0
+Version: 1.12.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-pyqt5.qtmultimedia, libqt5multimedia5-plugins, python3-requests, gstreamer1.0-plugins-good
 Recommends: gstreamer1.0-libav, yt-dlp, ffmpeg
-Filename: pool/main/r/readers-podcasts/readers-podcasts_1.11.0_all.deb
-Size: 345088
-MD5sum: 315e351fae87e5964721bd2d294e2c84
-SHA1: 92444280dfd9e47e37d7c90ecd15ce6ecee06a6f
-SHA256: b4eacf907bef11dd6c408d630b3b9d2581ec371adb8f6796dd8d66df81a4b7bb
+Filename: pool/main/r/readers-podcasts/readers-podcasts_1.12.0_all.deb
+Size: 349566
+MD5sum: 16f6cca478361581d81b0d6ffd2afedc
+SHA1: a998aa0fa9d3ab28615979502156475d58779a84
+SHA256: 789243391d928275e5a3da03c667a3ab871675943ff4e7c4ed7f3204e8dedece
 Section: sound
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-podcasts-desktop
@@ -130,15 +130,15 @@ Description: Black-and-white, text-only CalDAV task list
  to tick and a line to add. White on black or black on white.
 
 Package: readers-video-editor
-Version: 1.11.2
+Version: 1.12.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-pyqt5.qtmultimedia, python3-venv, python3-pip, python3-numpy, python3-soundfile, ffmpeg, gstreamer1.0-plugins-good, gstreamer1.0-libav
-Filename: pool/main/r/readers-video-editor/readers-video-editor_1.11.2_all.deb
-Size: 654720
-MD5sum: 55bf57aa4107a64173e9cfeab45c1adb
-SHA1: 3c635f806590ff1f8dce5064d2472ebb281e2ae5
-SHA256: f72ba57a3c0df95e2c4358efbf7f37b2ec5400d11889715ba088874ea91d4fa2
+Filename: pool/main/r/readers-video-editor/readers-video-editor_1.12.0_all.deb
+Size: 662978
+MD5sum: e0981487b225f5059c150614f5537378
+SHA1: 0d9fec7cb7e861146cbce3e5728bb7df50575288
+SHA256: ba6af786cb8101e1cf6e4aa9b101588b93515f4b5e61a55e72a9ca5f924eb9fb
 Section: video
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-video-editor
