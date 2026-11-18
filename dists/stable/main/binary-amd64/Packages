@@ -80,16 +80,16 @@ Description: Black-and-white, plain-text notes synced over WebDAV
  step with the Reader's Notes Android app. White on black or black on white.
 
 Package: readers-podcasts
-Version: 1.12.0
+Version: 1.12.1
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-pyqt5.qtmultimedia, libqt5multimedia5-plugins, python3-requests, gstreamer1.0-plugins-good
-Recommends: gstreamer1.0-libav, yt-dlp, ffmpeg
-Filename: pool/main/r/readers-podcasts/readers-podcasts_1.12.0_all.deb
-Size: 349566
-MD5sum: 16f6cca478361581d81b0d6ffd2afedc
-SHA1: a998aa0fa9d3ab28615979502156475d58779a84
-SHA256: 789243391d928275e5a3da03c667a3ab871675943ff4e7c4ed7f3204e8dedece
+Recommends: gstreamer1.0-libav, ffmpeg
+Filename: pool/main/r/readers-podcasts/readers-podcasts_1.12.1_all.deb
+Size: 350892
+MD5sum: 39562d3c42c00ea3b9f712507402b9e0
+SHA1: 411d3c5048395fbab0ceb7fc9bab8bdcdc14e06b
+SHA256: 41e2aa120e7bb3f6af574b4fc834b314f29ea51b8e8b36248309ca3e7a414e48
 Section: sound
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-podcasts-desktop
@@ -98,8 +98,8 @@ Description: Black-and-white, text-only podcast player
  is about on the right: its notes with their links alive and its chapters one
  click from the sound. OPML in and out, a settings file that carries where
  each episode was left, in step with the Reader's Podcasts Android app.
- YouTube channels are followed as feeds; their audio is fetched by yt-dlp
- when it is installed.
+ YouTube channels are followed as feeds; their audio is fetched by yt-dlp,
+ which the app fetches once and keeps up to date by itself.
  What is said in an episode can be written down by a Whisper program
  (faster-whisper, whisper.cpp or whisper) and translated by Ollama, when
  they are installed; the text is read against the sound.
@@ -150,15 +150,15 @@ Description: Black-and-white, text-only CalDAV task list
  to tick and a line to add. White on black or black on white.
 
 Package: readers-video-editor
-Version: 1.14.0
+Version: 1.14.1
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-pyqt5.qtmultimedia, python3-venv, python3-pip, python3-numpy, python3-soundfile, ffmpeg, gstreamer1.0-plugins-good, gstreamer1.0-libav
-Filename: pool/main/r/readers-video-editor/readers-video-editor_1.14.0_all.deb
-Size: 686738
-MD5sum: f779cd42bf9c6daaf7ebbc82e313f79b
-SHA1: 32a6b364d2579d103ec94441bc35a62bc5f7d692
-SHA256: ce48c149a3d90517123052932742bba670c377269d1299bf7ba62def03b39586
+Filename: pool/main/r/readers-video-editor/readers-video-editor_1.14.1_all.deb
+Size: 687064
+MD5sum: c217932a80df62d88cbe00fdd2005c0e
+SHA1: 1bd1aed356bc6a89b6f8a2e49bc82b0d28d3b847
+SHA256: 2720cb658b1c0f6f475a547abcd71347b7a5f93ce982c356e649855b14d618ff
 Section: video
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-video-editor
