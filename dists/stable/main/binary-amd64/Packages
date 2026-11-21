@@ -150,15 +150,15 @@ Description: Black-and-white, text-only CalDAV task list
  to tick and a line to add. White on black or black on white.
 
 Package: readers-video-editor
-Version: 1.15.0
+Version: 1.16.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-pyqt5.qtmultimedia, python3-venv, python3-pip, python3-numpy, python3-soundfile, ffmpeg, gstreamer1.0-plugins-good, gstreamer1.0-libav
-Filename: pool/main/r/readers-video-editor/readers-video-editor_1.15.0_all.deb
-Size: 690022
-MD5sum: 297901fa4ef056e1a3d4b77a3f8fbf3f
-SHA1: 6412af40f8c639e31f4c271dd6f77484b47241c4
-SHA256: a3f1f492687a61f6360392b0faa220e38a0267869f77d232563fa5e0d5de2128
+Filename: pool/main/r/readers-video-editor/readers-video-editor_1.16.0_all.deb
+Size: 696374
+MD5sum: 9b34ba93f8496590ef64512e735519de
+SHA1: 258b5d4ca3ce289bece8424dd2ca9d41da397db8
+SHA256: 210f65a25939a1c0c81cfa0204e13c3b0901a2e73f01d8c27db0bf384908174a
 Section: video
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-video-editor
