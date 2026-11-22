@@ -171,16 +171,16 @@ Description: Cut a video or a recording by highlighting its text
  The transcription needs faster-whisper (pip install faster-whisper).
 
 Package: readers-writer
-Version: 0.24.0
+Version: 0.24.1
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-markdown, libqt5svg5, libenchant-2-2
 Recommends: python3-matplotlib, python3-keyring, python3-pyqt5.qtwebengine, python3-docx, hunspell-fr, hunspell-en-us, default-jre-headless, poppler-utils
-Filename: pool/main/r/readers-writer/readers-writer_0.24.0_all.deb
-Size: 1078286
-MD5sum: 22fa2e46e6acce9dd89f817fd08885cf
-SHA1: 8402ca599851170fd625fe6d2d11cb8d628f8965
-SHA256: 7d53e26ead93dfb0d00bcd6566cecc63e4a9c1617d052d1bff9c05d5dea3cbbc
+Filename: pool/main/r/readers-writer/readers-writer_0.24.1_all.deb
+Size: 1079104
+MD5sum: e91c2d928a1a72ad2cdb97be568ef361
+SHA1: d71045663d4384dfdb07aedeae65afcf8f53cb4c
+SHA256: 00f6d08e38f9f4ac84848b14fccb4e0e4e8d5d31859db44a013a1d759ecafb13
 Section: editors
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-writer
@@ -196,16 +196,16 @@ Description: A writing room for a post, with an assistant beside it
  (experimental). Black on white or white on black, amber filter.
 
 Package: readers-writer
-Version: 0.24.1
+Version: 0.24.2
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-markdown, libqt5svg5, libenchant-2-2
 Recommends: python3-matplotlib, python3-keyring, python3-pyqt5.qtwebengine, python3-docx, hunspell-fr, hunspell-en-us, default-jre-headless, poppler-utils
-Filename: pool/main/r/readers-writer/readers-writer_0.24.1_all.deb
-Size: 1079104
-MD5sum: e91c2d928a1a72ad2cdb97be568ef361
-SHA1: d71045663d4384dfdb07aedeae65afcf8f53cb4c
-SHA256: 00f6d08e38f9f4ac84848b14fccb4e0e4e8d5d31859db44a013a1d759ecafb13
+Filename: pool/main/r/readers-writer/readers-writer_0.24.2_all.deb
+Size: 1079670
+MD5sum: 543bb669f0ef2dbd2c66e7fc43aaf35d
+SHA1: 38c189ed68b5a6b0aa1e44faf24863c979562dbe
+SHA256: 2bb990626c41729401592d75b5d2be89f82e8e8c58ff41526d0b257e86db740a
 Section: editors
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-writer
