@@ -23,16 +23,16 @@ Description: Black-and-white e-book reader: a shelf, and pages cut at whole line
  about 2 GB downloaded). The desktop twin of the Reader's Books Android app.
 
 Package: readers-calendar
-Version: 1.18.0
+Version: 1.19.0
 Architecture: all
 Maintainer: funkypitt <pierregallaz@gmail.com>
 Depends: python3 (>= 3.8), python3-pyqt5, python3-requests, python3-dateutil
 Recommends: fonts-roboto
-Filename: pool/main/r/readers-calendar/readers-calendar_1.18.0_all.deb
-Size: 343908
-MD5sum: 657f083e4b4d805c35220475b693209a
-SHA1: 0b46df7a539cbbbc5510d30fd615902ae4f3a15f
-SHA256: 0c260ee13412034adf57d11b199f6ab1c2770cf881f3f68930996b45b1c39df0
+Filename: pool/main/r/readers-calendar/readers-calendar_1.19.0_all.deb
+Size: 344310
+MD5sum: 83da71c9a9d79edc31639bdc7ebafaa5
+SHA1: 0c52ee31039f891aa682e1a36c87c5ff62210a5b
+SHA256: 8aafbe770c0d6fde494c1ec9d2eb2a9ab9f0cce13561188c4ddfef429a113753
 Section: utils
 Priority: optional
 Homepage: https://github.com/funkypitt/readers-calendar-desktop
